@@ -33,13 +33,13 @@ const EventLogistic: FC<EventLogisticProps> = ({
       </div>
       <ul className={classes.list}>
         <li className={classes.item}>
-          <span className={classes.icon}>
+          <span className={classes.icon} data-testid="date-icon">
             <DateIcon />
           </span>
           <span className={classes.content}>{humanReadableDate}</span>
         </li>
         <li className={classes.item}>
-          <span className={classes.icon}>
+          <span className={classes.icon} data-testid="address-icon">
             <AddressIcon />
           </span>
           <span className={classes.content}>{formattedAddress}</span>

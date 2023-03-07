@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render and check props If button has link and children props 1`] = `
+<DocumentFragment>
+  <a
+    class="btn"
+    href="/"
+  >
+    hey
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Render and check props If button has onClick and children props 1`] = `
+<DocumentFragment>
+  <button
+    class="btn"
+  >
+    hey
+  </button>
+</DocumentFragment>
+`;

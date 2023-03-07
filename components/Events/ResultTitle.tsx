@@ -12,6 +12,7 @@ const ResultTitle: FC<ResultTitleProps> = ({ date }) => {
     month: "long",
     year: "numeric",
   });
+
   return (
     <section className={classes.title}>
       <h1>Events in {humanReadableDate}</h1>

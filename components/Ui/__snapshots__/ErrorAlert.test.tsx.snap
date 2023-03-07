@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render and check props Should render with children props 1`] = `
+<DocumentFragment>
+  <div
+    class="alert"
+  >
+    hey Alert
+  </div>
+</DocumentFragment>
+`;
